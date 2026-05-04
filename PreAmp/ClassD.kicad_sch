@@ -2889,7 +2889,7 @@
 		)
 		(uuid "1a72a802-c275-4ca1-8d85-6d55af1eb6d8")
 	)
-	(text "Power Stage"
+	(text "Power Input Regulation"
 		(exclude_from_sim no)
 		(at 80.518 17.526 0)
 		(effects
