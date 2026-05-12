@@ -2764,6 +2764,16 @@
 		)
 		(uuid "347d3299-1caf-4b62-b07f-8094c9fc5e75")
 	)
+	(text "~ 15.9Hz"
+		(exclude_from_sim no)
+		(at 50.546 115.824 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39506710-f9ea-419f-a28c-cdc507b986e8")
+	)
 	(text "100k"
 		(exclude_from_sim no)
 		(at 83.82 115.316 0)
@@ -2859,6 +2869,16 @@
 			)
 		)
 		(uuid "87490d3c-f44f-4238-98bd-92ad8eb049d9")
+	)
+	(text "F=1/(2πRC)"
+		(exclude_from_sim no)
+		(at 51.816 113.284 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87db1ddb-6aa8-4ea8-8372-9f8094662036")
 	)
 	(text "@Mundo Electronica"
 		(exclude_from_sim no)
@@ -2987,7 +3007,7 @@
 		)
 		(uuid "efd776cc-3508-46e4-a4b3-822a7276b7c3")
 	)
-	(text "82k"
+	(text "8.2k"
 		(exclude_from_sim no)
 		(at 96.774 99.314 0)
 		(effects
