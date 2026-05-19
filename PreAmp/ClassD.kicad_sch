@@ -3027,7 +3027,7 @@
 		)
 		(uuid "f26795f1-5fc9-4eb3-b8fb-d7da26859861")
 	)
-	(text "10uF"
+	(text "1uF"
 		(exclude_from_sim no)
 		(at 104.394 98.552 0)
 		(effects
