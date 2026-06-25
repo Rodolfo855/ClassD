@@ -3126,6 +3126,12 @@
 		(uuid "85011f2f-f847-4780-8ec3-fcab8ad1e235")
 	)
 	(junction
+		(at 220.218 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b98ee19-67df-4a57-a81e-e7ba7e677a29")
+	)
+	(junction
 		(at 73.66 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3480,6 +3486,16 @@
 			(type default)
 		)
 		(uuid "3ad3e7e2-8c8b-4f88-b1de-d5a07402aca4")
+	)
+	(wire
+		(pts
+			(xy 220.218 73.66) (xy 220.218 75.184)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c784fd7-e3c6-4b6c-b561-9ce12efd4f07")
 	)
 	(wire
 		(pts
@@ -3903,6 +3919,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.218 73.66) (xy 226.06 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8001397f-cfdf-4cb9-b646-95a8ab842956")
+	)
+	(wire
+		(pts
 			(xy 43.18 142.24) (xy 46.99 142.24)
 		)
 		(stroke
@@ -4283,7 +4309,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 73.66) (xy 226.06 73.66)
+			(xy 215.9 73.66) (xy 220.218 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4420,6 +4446,16 @@
 			(type default)
 		)
 		(uuid "ec346dff-e982-418e-925b-23798510ec9d")
+	)
+	(wire
+		(pts
+			(xy 220.218 80.264) (xy 220.218 81.534)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed06db7a-9b83-4f57-a7cf-4f89fc04b029")
 	)
 	(wire
 		(pts
@@ -6238,6 +6274,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 220.218 81.534 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52c1b90c-8057-4832-918b-8a9836b6edfa")
+		(property "Reference" "#PWR035"
+			(at 220.218 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.218 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.218 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.218 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.218 81.534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "793f5ea1-12eb-4653-93be-fdfe7e69974a")
+		)
+		(instances
+			(project ""
+				(path "/fdc31853-4cdf-4258-8ce4-3d650134335c"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 118.11 83.82 90)
 		(unit 1)
@@ -7321,7 +7423,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 245.11 95.25 0)
+		(at 245.364 105.664 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7329,7 +7431,7 @@
 		(dnp no)
 		(uuid "75b41fe3-946c-4034-8377-c6882a6b00ab")
 		(property "Reference" "H4"
-			(at 243.84 89.916 0)
+			(at 244.094 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7440,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 239.776 91.948 0)
+			(at 240.03 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7449,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 245.11 95.25 0)
+			(at 245.364 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7458,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 95.25 0)
+			(at 245.364 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7365,7 +7467,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 245.11 95.25 0)
+			(at 245.364 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8824,7 +8926,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 85.09 0)
+		(at 225.044 95.504 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8832,7 +8934,7 @@
 		(dnp no)
 		(uuid "b4c091f0-28ea-4403-bb11-5d5fbf6249ab")
 		(property "Reference" "H1"
-			(at 223.774 79.502 0)
+			(at 224.028 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8841,7 +8943,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 218.694 81.788 0)
+			(at 218.948 92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8850,7 +8952,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 224.79 85.09 0)
+			(at 225.044 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8859,7 +8961,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 85.09 0)
+			(at 225.044 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8868,7 +8970,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 85.09 0)
+			(at 225.044 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8953,7 +9055,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 245.11 85.09 0)
+		(at 245.364 95.504 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8961,7 +9063,7 @@
 		(dnp no)
 		(uuid "bcbe87ba-b610-4814-906c-d8ebddc98d0f")
 		(property "Reference" "H3"
-			(at 243.84 79.502 0)
+			(at 244.094 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8970,7 +9072,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 240.03 81.534 0)
+			(at 240.284 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8979,7 +9081,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 245.11 85.09 0)
+			(at 245.364 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8988,7 +9090,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 85.09 0)
+			(at 245.364 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8997,7 +9099,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 245.11 85.09 0)
+			(at 245.364 95.504 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9541,6 +9643,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 220.218 77.724 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "daaff18f-3ad1-4d53-b2cf-5276726e715f")
+		(property "Reference" "R9"
+			(at 222.25 76.4539 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 222.25 78.9939 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.218 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.218 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 220.218 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "49c21ac0-458d-4e46-b6f4-27b4b5a1ff7b")
+		)
+		(pin "1"
+			(uuid "23dc712b-abc9-4d86-8e88-29f47be5c22d")
+		)
+		(instances
+			(project ""
+				(path "/fdc31853-4cdf-4258-8ce4-3d650134335c"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:LM358")
 		(at 116.84 104.14 0)
 		(mirror x)
@@ -9894,7 +10066,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 224.79 95.25 90)
+		(at 225.044 105.664 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9902,7 +10074,7 @@
 		(dnp no)
 		(uuid "eb4c76ea-ffa5-4631-bb17-8b9c67d9faaf")
 		(property "Reference" "H2"
-			(at 223.774 90.17 90)
+			(at 224.028 100.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9911,7 +10083,7 @@
 			)
 		)
 		(property "Value" "MountingHole"
-			(at 219.202 92.202 90)
+			(at 219.456 102.616 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9920,7 +10092,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 224.79 95.25 0)
+			(at 225.044 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,7 +10101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 95.25 0)
+			(at 225.044 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9938,7 +10110,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 224.79 95.25 0)
+			(at 225.044 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
